@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neuro-IA Lab — Neurociencias e Inteligencia Artificial Aplicada | UTEC</title>
+<meta name="description" content="Neuro-IA Lab (UTEC, ITR-SO) investiga interfaces cerebro-computadora, procesamiento de señales fisiológicas e inteligencia artificial aplicada.">
+<meta property="og:title" content="Neuro-IA Lab — UTEC">
+<meta property="og:description" content="Investigación en interfaces cerebro-computadora, señales fisiológicas e IA aplicada.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand">
+      <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="64" height="64" rx="14" fill="#0b1e3d"/>
+        <circle cx="18" cy="22" r="4.2" fill="#4bdfce"/>
+        <circle cx="46" cy="18" r="4.2" fill="#a79dff"/>
+        <circle cx="48" cy="44" r="4.2" fill="#4bdfce"/>
+        <circle cx="20" cy="46" r="4.2" fill="#a79dff"/>
+        <circle cx="34" cy="32" r="5.2" fill="#17c3b2"/>
+        <g stroke="#4bdfce" stroke-width="1.6" opacity="0.85">
+          <line x1="18" y1="22" x2="34" y2="32"/>
+          <line x1="46" y1="18" x2="34" y2="32"/>
+          <line x1="48" y1="44" x2="34" y2="32"/>
+          <line x1="20" y1="46" x2="34" y2="32"/>
+        </g>
+      </svg>
+      <span>
+        Neuro-IA Lab
+        <span class="brand-sub">UTEC · ITR-SO</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+
+    <ul class="nav-links">
+      <li><a href="index.html" aria-current="page">Inicio</a></li>
+      <li><a href="lineas-de-investigacion.html">Líneas de Investigación</a></li>
+      <li><a href="proyectos.html">Proyectos</a></li>
+      <li><a href="miembros.html">Miembros</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li class="nav-social">
+        <a href="https://github.com/neuroialaborg" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.35-3.88-1.35-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.72-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.83 1.19 3.09 0 4.43-2.7 5.41-5.27 5.7.42.36.78 1.06.78 2.15 0 1.56-.01 2.81-.01 3.19 0 .31.21.66.79.55A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+        </a>
+        <a href="https://instagram.com/neuroialab" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <section class="hero">
+    <canvas id="hero-canvas" aria-hidden="true"></canvas>
+    <div class="container hero-inner">
+      <span class="eyebrow">Universidad Tecnológica del Uruguay · ITR-SO</span>
+      <h1>Neurociencias e <span>Inteligencia Artificial</span> aplicada</h1>
+      <p>
+        Investigamos interfaces cerebro-computadora, procesamiento de señales
+        fisiológicas e inteligencia artificial aplicada, generando conocimiento
+        a través de proyectos de investigación básica, avanzada y aplicada.
+      </p>
+      <div class="hero-actions">
+        <a href="proyectos.html" class="btn btn-primary">Ver proyectos</a>
+        <a href="contacto.html" class="btn btn-outline">Sumate al laboratorio</a>
+      </div>
+      <div class="hero-affil">
+        <strong>Neuro-IA Lab</strong> — Departamento Académico de Mecatrónica, Logística y Biomédica, UTEC
+      </div>
+    </div>
+  </section>
+
+  <section id="mision">
+    <div class="container">
+      <div class="section-head fade-in">
+        <span class="eyebrow">Nuestra misión</span>
+        <h2>Ciencia aplicada al servicio de las personas</h2>
+        <p>
+          Generamos conocimiento a través de proyectos de investigación básica,
+          avanzada y aplicada en neurociencias e inteligencia artificial, con foco
+          particular en el desarrollo de interfaces cerebro-computadora. Además,
+          formamos estudiantes de grado y posgrado y brindamos servicios
+          especializados a organizaciones alineadas con nuestra área de trabajo.
+        </p>
+      </div>
+
+      <div class="grid grid-3">
+        <a href="lineas-de-investigacion.html#linea-1" class="card fade-in">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3a5 5 0 0 0-5 5c0 1.1.35 2.06.9 2.83A4 4 0 0 0 4 14.5 4.5 4.5 0 0 0 8.5 19H9M15 3a5 5 0 0 1 5 5c0 1.1-.35 2.06-.9 2.83A4 4 0 0 1 20 14.5a4.5 4.5 0 0 1-4.5 4.5H15M9 3v16M15 3v16M9 8h2M13 8h2M9 12h2M13 12h2M9 16h2M13 16h2"/></svg>
+          </div>
+          <h3>Interfaces cerebro-computadora</h3>
+          <p>Biomarcadores para decodificar escritura y habla imaginada, orientados a comunicación asistida no invasiva.</p>
+        </a>
+        <a href="lineas-de-investigacion.html#linea-2" class="card fade-in">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12h4l2 7 4-14 2 7h6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Estados mentales y señales fisiológicas</h3>
+          <p>Adquisición y análisis integrado de EEG, ECG, EMG y EOG para caracterizar estrés, atención, carga cognitiva y estado de Flow.</p>
+        </a>
+        <a href="lineas-de-investigacion.html#linea-3" class="card fade-in">
+          <div class="card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Procesamiento avanzado de EEG</h3>
+          <p>Técnicas de filtrado, extracción de biomarcadores y modelos de IA aplicados a EEG y fNIRS.</p>
+        </a>
+      </div>
+
+      <div style="text-align:center; margin-top:32px;" class="fade-in">
+        <a href="lineas-de-investigacion.html" class="btn btn-outline" style="border-color: var(--border); color: var(--navy-800);">Ver las 3 líneas de investigación</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <div class="section-head fade-in">
+        <span class="eyebrow">Proyectos destacados</span>
+        <h2>Investigación en curso</h2>
+        <p>Un vistazo a algunas de las líneas de trabajo activas del laboratorio.</p>
+      </div>
+
+      <div class="grid grid-3">
+        <a href="proyectos.html#proy-001" class="project-card fade-in">
+          <div class="project-top">
+            <span class="project-id">PROY-NEUROIA-001</span>
+            <span class="badge badge-active">En marcha</span>
+          </div>
+          <h3>Escritura imaginada a mano alzada usando EEG de alta densidad</h3>
+          <p>Evalúa la factibilidad de decodificar letras y trazos manuscritos a partir de patrones de actividad cortical durante escritura ejecutada e imaginada.</p>
+        </a>
+        <a href="proyectos.html#proy-002" class="project-card fade-in">
+          <div class="project-top">
+            <span class="project-id">PROY-NEUROIA-002</span>
+            <span class="badge badge-active">En marcha</span>
+          </div>
+          <h3>Base multimodal para decodificación de estados mentales</h3>
+          <p>Protocolo de adquisición que combina EEG, ECG, EMG y EOG con tareas de realidad virtual y aumentada para estudiar estrés, concentración, aburrimiento y estado de Flow.</p>
+        </a>
+        <a href="proyectos.html#proy-005" class="project-card fade-in">
+          <div class="project-top">
+            <span class="project-id">PROY-NEUROIA-005</span>
+            <span class="badge badge-active">En marcha</span>
+          </div>
+          <h3>Habla imaginada a partir de EEG de superficie y fNIRS</h3>
+          <p>Registro de EEG de alta densidad y audio durante habla ejecutada e imaginada para estudiar su decodificación mediante IA para BCIs.</p>
+        </a>
+      </div>
+
+      <div style="text-align:center; margin-top:36px;" class="fade-in">
+        <a href="proyectos.html" class="btn btn-dark">Ver todos los proyectos</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="cta fade-in">
+        <div>
+          <h2>Participá en nuestros estudios</h2>
+          <p>Buscamos voluntarios y estudiantes interesados en neurociencias, señales biomédicas e inteligencia artificial. Escribinos y contanos cómo te gustaría colaborar.</p>
+        </div>
+        <a href="contacto.html" class="btn btn-primary">Contactar al laboratorio</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="64" height="64" rx="14" fill="#0b1e3d"/>
+            <circle cx="18" cy="22" r="4.2" fill="#4bdfce"/>
+            <circle cx="46" cy="18" r="4.2" fill="#a79dff"/>
+            <circle cx="48" cy="44" r="4.2" fill="#4bdfce"/>
+            <circle cx="20" cy="46" r="4.2" fill="#a79dff"/>
+            <circle cx="34" cy="32" r="5.2" fill="#17c3b2"/>
+          </svg>
+          <span>Neuro-IA Lab</span>
+        </a>
+        <p>Laboratorio de Neurociencias e Inteligencia Artificial Aplicada — UTEC, Instituto Tecnológico Regional Suroeste.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h5>Sitio</h5>
+          <a href="index.html">Inicio</a>
+          <a href="lineas-de-investigacion.html">Líneas de Investigación</a>
+          <a href="proyectos.html">Proyectos</a>
+          <a href="miembros.html">Miembros</a>
+          <a href="contacto.html">Contacto</a>
+        </div>
+        <div class="footer-col">
+          <h5>Contacto</h5>
+          <a href="mailto:neuroialab@utec.edu.uy">neuroialab@utec.edu.uy</a>
+          <span>UTEC · ITR-SO</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Neuro-IA Lab, UTEC. Todos los derechos reservados.</span>
+      <div class="footer-social">
+        <a href="https://github.com/neuroialaborg" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.35-3.88-1.35-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.72-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.83 1.19 3.09 0 4.43-2.7 5.41-5.27 5.7.42.36.78 1.06.78 2.15 0 1.56-.01 2.81-.01 3.19 0 .31.21.66.79.55A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+        </a>
+        <a href="https://instagram.com/neuroialab" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

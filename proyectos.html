@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proyectos — Neuro-IA Lab</title>
+<meta name="description" content="Proyectos de investigación del Neuro-IA Lab: interfaces cerebro-computadora, bases de datos multimodales y procesamiento de señales fisiológicas.">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand">
+      <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="64" height="64" rx="14" fill="#0b1e3d"/>
+        <circle cx="18" cy="22" r="4.2" fill="#4bdfce"/>
+        <circle cx="46" cy="18" r="4.2" fill="#a79dff"/>
+        <circle cx="48" cy="44" r="4.2" fill="#4bdfce"/>
+        <circle cx="20" cy="46" r="4.2" fill="#a79dff"/>
+        <circle cx="34" cy="32" r="5.2" fill="#17c3b2"/>
+        <g stroke="#4bdfce" stroke-width="1.6" opacity="0.85">
+          <line x1="18" y1="22" x2="34" y2="32"/>
+          <line x1="46" y1="18" x2="34" y2="32"/>
+          <line x1="48" y1="44" x2="34" y2="32"/>
+          <line x1="20" y1="46" x2="34" y2="32"/>
+        </g>
+      </svg>
+      <span>
+        Neuro-IA Lab
+        <span class="brand-sub">UTEC · ITR-SO</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="lineas-de-investigacion.html">Líneas de Investigación</a></li>
+      <li><a href="proyectos.html" aria-current="page">Proyectos</a></li>
+      <li><a href="miembros.html">Miembros</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li class="nav-social">
+        <a href="https://github.com/neuroialaborg" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.35-3.88-1.35-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.72-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.83 1.19 3.09 0 4.43-2.7 5.41-5.27 5.7.42.36.78 1.06.78 2.15 0 1.56-.01 2.81-.01 3.19 0 .31.21.66.79.55A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+        </a>
+        <a href="https://instagram.com/neuroialab" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+  <header class="page-header">
+    <div class="container">
+      <span class="eyebrow">Actualizado 18/08/2026</span>
+      <h1>Proyectos</h1>
+      <p>Investigación básica, avanzada y aplicada en neurociencias e inteligencia artificial, con foco en interfaces cerebro-computadora y procesamiento de señales fisiológicas. Cada proyecto forma parte de una o más <a href="lineas-de-investigacion.html" style="color:var(--teal-400); text-decoration:underline;">líneas de investigación</a> del laboratorio.</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+
+      <h2 class="group-title fade-in">En curso</h2>
+      <div class="grid grid-3">
+
+        <div class="project-card fade-in" id="proy-001">
+          <div class="project-top">
+            <span class="project-id">PROY-NEUROIA-001</span>
+            <span class="badge badge-active">En marcha</span>
+          </div>
+          <h3>Escritura imaginada a mano alzada usando EEG de alta densidad</h3>
+          <p>Estudio de factibilidad de decodificación de escritura imaginada a mano alzada, con aplicaciones a interfaces no convencionales de comunicación. Protocolo aprobado por el Comité de Ética de la Facultad de Medicina de la UDELAR (Exp. Nº 070153-000065-24).</p>
+          <dl class="project-meta">
+            <dt>Directora</dt><dd>Dra. Victoria Peterson</dd>
+            <dt>Responsable</dt><dd>Lucas Baldezzari</dd>
+            <dt>Nivel</dt><dd>Doctorado</dd>
+            <dt>Vigencia</dt><dd>02/2025 – 12/2028</dd>
+          </dl>
+          <details>
+            <summary></summary>
+            <ul>
+              <li>Generar una base de datos multimodal para estudiar la decodificación de letras escritas a mano alzada para BCIs de comunicación no invasivas.</li>
+              <li>Evaluar si con Machine Learning tradicional es posible decodificar trazos continuos de letras del alfabeto latino.</li>
+              <li>Evaluar la factibilidad de decodificación mediante EEG de superficie de alta densidad, en tareas de ejecución e imaginación.</li>
+              <li>Estudiar activaciones corticales con detección de fuentes durante ejecución e imaginación de escritura.</li>
+            </ul>
+            <p><strong>Actividad actual:</strong> software de adquisición y presentación de estímulos (finalizado), pruebas piloto (finalizadas), registro de voluntarios en marcha para conformar la base de datos.</p>
+          </details>
+        </div>
+
+        <div class="project-card fade-in" id="proy-002">
+          <div class="project-top">
+            <span class="project-id">PROY-NEUROIA-002</span>
+            <span class="badge badge-active">En marcha</span>
+          </div>
+          <h3>Base de datos multimodal para decodificación de estados mentales</h3>
+          <p>Protocolo de adquisición de señales fisiológicas (EEG, ECG, EMG, EOG) mediante el equipo g.HIamp de g.tec, combinado con tareas de realidad virtual y aumentada, para el estudio de estrés, concentración, aburrimiento y estado de Flow.</p>
+          <dl class="project-meta">
+            <dt>Responsable</dt><dd>Lucas Baldezzari</dd>
+            <dt>Participantes</dt><dd>Victoria Maneiro</dd>
+            <dt>Nivel</dt><dd>Grado con proyección a posgrado</dd>
+            <dt>Vigencia</dt><dd>01/2025 – 11/2027</dd>
+          </dl>
+          <details>
+            <summary></summary>
+            <ul>
+              <li>Generar una base de datos multimodal (EEG, ECG, EMG, EOG) para estudiar la factibilidad de decodificar estados mentales durante el uso de tecnologías de realidad virtual y aumentada.</li>
+              <li>Meta: base de datos con entre 30 y 60 personas voluntarias.</li>
+            </ul>
+            <p><strong>Actividad actual:</strong> diseño del protocolo experimental finalizado (proyecto de titulación de Victoria Maneiro, aprobado); en evaluación por Comité de Ética; implementación del entorno de realidad virtual y validación del setup en curso.</p>
+          </details>
+        </div>
+
+        <div class="project-card fade-in" id="proy-005">
+          <div class="project-top">
+            <span class="project-id">PROY-NEUROIA-005</span>
+            <span class="badge badge-active">En marcha</span>
+          </div>
+          <h3>Habla imaginada a partir de EEG de superficie y fNIRS</h3>
+          <p>Conformación de una base de datos de EEG de alta densidad y audio durante habla ejecutada e imaginada, para estudiar su decodificación mediante ML/IA en BCIs orientadas a personas con limitaciones motoras severas. Proyecto de aspiración a Máster en Ingeniería Biomédica. Protocolo aprobado por el Comité de Ética de la Facultad de Medicina de la UDELAR (Exp. Nº 070153-000064-24).</p>
+          <dl class="project-meta">
+            <dt>Responsable</dt><dd>Lucas Baldezzari</dd>
+            <dt>Participantes</dt><dd>Emiliano Alvarez</dd>
+            <dt>Nivel</dt><dd>Grado y Posgrado</dd>
+            <dt>Vigencia</dt><dd>06/2025 – 12/2028</dd>
+          </dl>
+          <details>
+            <summary></summary>
+            <ul>
+              <li>Conformar una base de datos de EEG de alta densidad para estudiar la decodificación del habla imaginada.</li>
+              <li>Publicar la base de datos para que grupos de investigación de Uruguay, la región y el mundo puedan usarla.</li>
+              <li>Aplicar algoritmos de ML e IA para estudiar la factibilidad de decodificación.</li>
+            </ul>
+            <p><strong>Actividad actual:</strong> revisión del protocolo aprobado por el Comité de Ética de la Facultad de Medicina de la UDELAR.</p>
+          </details>
+        </div>
+
+        <div class="project-card fade-in" id="proy-008">
+          <div class="project-top">
+            <span class="project-id">PROY-NEUROIA-008</span>
+            <span class="badge badge-active">En marcha</span>
+          </div>
+          <h3>Software de adquisición, visualización y análisis de señales biomédicas</h3>
+          <p>Desarrollo de un software para adquisición, visualización y análisis de señales biomédicas en tiempo real y offline para el Neuro-IA Lab, con GUI en Qt Designer y algoritmos de procesamiento digital (filtros, FFT) para EEG, ECG y EMG.</p>
+          <dl class="project-meta">
+            <dt>Responsable</dt><dd>Lucas Baldezzari</dd>
+            <dt>Participantes</dt><dd>Agustín Quintana</dd>
+            <dt>Nivel</dt><dd>Ingeniería</dd>
+            <dt>Vigencia</dt><dd>02/2026 – 11/2027</dd>
+          </dl>
+        </div>
+
+        <div class="project-card fade-in" id="proy-009">
+          <div class="project-top">
+            <span class="project-id">PROY-NEUROIA-009</span>
+            <span class="badge badge-active">En marcha</span>
+          </div>
+          <h3>Arquitecturas de hardware embebido para una BCI portátil</h3>
+          <p>Análisis y propuesta de arquitecturas de hardware embebido (microcontroladores ARM Cortex y SBCs) para el bloque de procesamiento de una BCI basada en imaginería motora, evaluando filtrado digital, extracción de características (CSP) y clasificación (LDA) en plataformas de bajo costo. Alcance analítico y conceptual, sin implementación física en esta etapa.</p>
+          <dl class="project-meta">
+            <dt>Responsable</dt><dd>Lucas Baldezzari</dd>
+            <dt>Participantes</dt><dd>Juan Acosta</dd>
+            <dt>Nivel</dt><dd>Ingeniería</dd>
+            <dt>Vigencia</dt><dd>03/2026 – 10/2027</dd>
+          </dl>
+        </div>
+      </div>
+
+      <h2 class="group-title fade-in">Completados, en pausa y no iniciados</h2>
+      <div class="grid grid-3">
+
+        <div class="project-card fade-in" id="proy-003">
+          <div class="project-top">
+            <span class="project-id">PROY-NEUROIA-003</span>
+            <span class="badge badge-done">Completado</span>
+          </div>
+          <h3>Desincronización/sincronización relacionada a eventos en EEG</h3>
+          <p>Generó una base de datos de EEG de 64 canales durante tareas de imaginación motora, estableciendo los protocolos de laboratorio y utilizando el sistema g.HIamp. Sus señales se reutilizan en el proyecto PROY-NEUROIA-007.</p>
+        </div>
+
+        <div class="project-card fade-in" id="proy-004">
+          <div class="project-top">
+            <span class="project-id">PROY-NEUROIA-004</span>
+            <span class="badge badge-hold">En stand by</span>
+          </div>
+          <h3>Base de datos para decodificación de trayectorias 2D/3D</h3>
+          <p>Registro de EEG de alta densidad (amplificador g.HIamp de 80 canales) y EMG junto con coordenadas espaciales 2D/3D, durante movimientos ejecutados e imaginados del miembro superior. Protocolo aprobado por el Comité de Ética de la Facultad de Medicina de la UDELAR (Exp. Nº 070153-000063-24).</p>
+          <dl class="project-meta">
+            <dt>Responsable</dt><dd>Lucas Baldezzari</dd>
+            <dt>Nivel</dt><dd>Posgrado</dd>
+            <dt>Convocatoria</dt><dd>Abierta</dd>
+          </dl>
+          <details>
+            <summary></summary>
+            <p>El diseño experimental comenzará una vez el laboratorio se libere de las actividades del proyecto PROY-NEUROIA-003.</p>
+          </details>
+        </div>
+
+        <div class="project-card fade-in" id="proy-006">
+          <div class="project-top">
+            <span class="project-id">PROY-NEUROIA-006</span>
+            <span class="badge badge-notstarted">No iniciado</span>
+          </div>
+          <h3>Algoritmo de remoción de artefactos en EEG para BCI</h3>
+          <p>Estudio del estado del arte y desarrollo en Python de un algoritmo para la remoción de artefactos y ruido del EEG en tiempo real y offline, minimizando la pérdida de información neuronal.</p>
+          <dl class="project-meta">
+            <dt>Responsable</dt><dd>Lucas Baldezzari</dd>
+            <dt>Nivel</dt><dd>Grado con proyección a posgrado</dd>
+            <dt>Convocatoria</dt><dd>Abierta</dd>
+          </dl>
+        </div>
+
+        <div class="project-card fade-in" id="proy-007">
+          <div class="project-top">
+            <span class="project-id">PROY-NEUROIA-007</span>
+            <span class="badge badge-notstarted">No iniciado</span>
+          </div>
+          <h3>Aplicación de Source Power Comodulation (SPoC)</h3>
+          <p>Estudio y aplicación de la técnica SPoC sobre señales del Neuro-IA Lab (registradas en el proyecto PROY-NEUROIA-003) para identificar componentes neuronales cuya potencia de fluctuación se correlaciona con una variable externa, durante ejecución e imaginación motora.</p>
+          <dl class="project-meta">
+            <dt>Responsable</dt><dd>Lucas Baldezzari</dd>
+            <dt>Nivel</dt><dd>Grado con proyección a posgrado</dd>
+            <dt>Convocatoria</dt><dd>Abierta</dd>
+          </dl>
+        </div>
+
+        <div class="project-card fade-in" id="proy-010">
+          <div class="project-top">
+            <span class="project-id">PROY-NEUROIA-010</span>
+            <span class="badge badge-notstarted">No iniciado</span>
+          </div>
+          <h3>Librería modular en Python para el análisis de oscilaciones neurales</h3>
+          <p>Desarrollo de una librería modular y reutilizable en Python para caracterizar sistemáticamente propiedades espectrales, temporales y espaciales de oscilaciones neurales en EEG, separando componentes periódicas y aperiódicas y generando reportes automáticos de calidad y metodología para los distintos proyectos del laboratorio.</p>
+          <dl class="project-meta">
+            <dt>Responsable</dt><dd>Lucas Baldezzari</dd>
+            <dt>Nivel</dt><dd>Ingeniería – Posgrado</dd>
+            <dt>Convocatoria</dt><dd>Abierta</dd>
+          </dl>
+        </div>
+      </div>
+
+      <div class="cta fade-in" style="margin-top:56px;">
+        <div>
+          <h2>¿Querés colaborar en un proyecto?</h2>
+          <p>Estudiantes, investigadores y voluntarios son bienvenidos a sumarse a nuestras líneas de trabajo.</p>
+        </div>
+        <a href="contacto.html" class="btn btn-primary">Escribinos</a>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="64" height="64" rx="14" fill="#0b1e3d"/>
+            <circle cx="18" cy="22" r="4.2" fill="#4bdfce"/>
+            <circle cx="46" cy="18" r="4.2" fill="#a79dff"/>
+            <circle cx="48" cy="44" r="4.2" fill="#4bdfce"/>
+            <circle cx="20" cy="46" r="4.2" fill="#a79dff"/>
+            <circle cx="34" cy="32" r="5.2" fill="#17c3b2"/>
+          </svg>
+          <span>Neuro-IA Lab</span>
+        </a>
+        <p>Laboratorio de Neurociencias e Inteligencia Artificial Aplicada — UTEC, Instituto Tecnológico Regional Suroeste.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h5>Sitio</h5>
+          <a href="index.html">Inicio</a>
+          <a href="lineas-de-investigacion.html">Líneas de Investigación</a>
+          <a href="proyectos.html">Proyectos</a>
+          <a href="miembros.html">Miembros</a>
+          <a href="contacto.html">Contacto</a>
+        </div>
+        <div class="footer-col">
+          <h5>Contacto</h5>
+          <a href="mailto:neuroialab@utec.edu.uy">neuroialab@utec.edu.uy</a>
+          <span>UTEC · ITR-SO</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> Neuro-IA Lab, UTEC. Todos los derechos reservados.</span>
+      <div class="footer-social">
+        <a href="https://github.com/neuroialaborg" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.35-3.88-1.35-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.72-1.54-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.83 1.19 3.09 0 4.43-2.7 5.41-5.27 5.7.42.36.78 1.06.78 2.15 0 1.56-.01 2.81-.01 3.19 0 .31.21.66.79.55A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+        </a>
+        <a href="https://instagram.com/neuroialab" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
